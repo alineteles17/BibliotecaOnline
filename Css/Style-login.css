@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div.d {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main.box {
+  background-color: rgba(228, 245, 245, 0.192);
+  width: 350px;
+  min-height: 20vh;
+  padding: 2rem;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.4);
+  border-radius: 7px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+form input,
+form button,
+form textarea {
+  outline: unset;
+
+  border: 1px solid #1189da;
+  border-radius: 10px;
+  box-shadow: 4px 4px 13px rgb(0, 0, 0, 0.2);
+}
+a.s {
+  box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.2);
+}
+
+p {
+  font-weight: bold;
+  font-size: 24px;
+  height: 35px;
+  text-shadow: 4px 4px 13px rgb(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+
+form label {
+  color: #4a4d50cc;
+  font-size: 17px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 4px 4px 13px rgb(0, 0, 0, 0.2);
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(120, 236, 245, 0.6)
+  );
+}
